@@ -1,3 +1,7 @@
+
+hai ini farah
+Summary hari ke 2 :
+
 Version Control and Branch Management (Git)
 Versioning adalah proses mengatur versi dari source code program terkait adanya perubahan agar memudahkan untuk melihat veri terbaru dari file tersebut.
 Vesion Control System ada 3 jenis :
@@ -26,3 +30,4 @@ k. git pull => Untuk menggabungkan semua perubahan yang ada di remote repository
 l. git merge => untuk menggabungkan sebuah branch ke branch aktif
 m. git diff => untuk menampilkan conflicts
 dll
+

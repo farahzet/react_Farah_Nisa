@@ -1,3 +1,6 @@
+
+Hai ini farah zet
+
 Catatan Materi Introduction FE
 •	Apa itu front-end developer 
 Front-end developer didefiniskan untuk mendevelop Interface produk, mendevelop sisi server produk. Memiliki hasil yang terlihat di client-side dan server-side, dan juga mempunyai  skill dalam beberapa Bahasa, seperti: HTML, CSS, Javascript, Ruby, Phyton, PHP.
@@ -21,3 +24,4 @@ Version control yang digunakan yaitu Git dan Github
 
 •	Kesimpulan
 Untuk menjadi front-end memiliki beberapa ketentuan yaitu paham mengenai internet dan cara kerja internet, memiliki skill penguasaan beberapa Bahasa tetapi yang utama adalah Bahasa HTML,CSS dan javascript. Dan untuk menjadi front-end yang baik harus memiliki pemahaman teknologi yang digunakan. Version control system akan lebih mudah dengan melakukan dokumentasi atau bekerja secara team.
+
