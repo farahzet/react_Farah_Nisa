@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>CreateProduct</title>
+</head>
+<body>
+	<h2>Create Product</h2>
+	<section>
+		<form action="" method="post">
+			<h3>Detail Product</h3>
+			<div>
+				<label for="namaproduk">Product Name :</label></br>
+				<input type="text" id="namaproduk" name="namaproduk" required pattern=".{6,50}" ><br>
+			</div>
+			<div>
+				<label for="kategori">Product Category :</label><br>
+				<input list="jenis" id="kategori" name="kategori">
+				<datalist id="jenis">
+					<option value="Clothes">
+					<option value="T-shirt">
+					<option value="Skirt">
+				</datalist><br>
+			</div>
+			<div>
+				Product Freshness :
+				</br><input type="radio" id="BrandNew" name="baru" value="Brand New">
+					<label for="BrandNew">Brand New</label><br>
+		    		<input type="radio" id="SecondHank" name="baru" value="Second Hank">
+					<label for="SecondHank">Second Hank</label><br>
+					<input type="radio" id="refurbished" name="baru" value="Refurbished">
+					<label for="refurbished">Refurbished</label><br>
+			</div>
+			<div>
+				Image of Product <input type='file' name='foto' /><br>
+			</div>
+			<div>
+				Additional Description<br>
+				<textarea id="deskripsi" name="deskripsi" rows="5" cols="30"></textarea><br>
+			</div>
+			<div>
+				<label for="hargaproduk">Product Price :</label></br>
+				<input type="text" id="hargaproduk" name="hargaproduk" placeholder="$100" required pattern="[0-9]+(\.[0-9]{2})?"><br>
+			</div>
+			<br><input type="submit" value="Submit">
+
+		</form>
+		
+	</section>
+</body>
+</html>

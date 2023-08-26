@@ -1,0 +1,200 @@
+body{
+	margin: 0;
+	font-family: Arial;
+}
+
+header{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	background-color: white;
+	color: ;
+}
+
+.header_left, .header_right {
+	width: 50%;
+	padding: 10px;
+}
+
+.header_right{
+	display: flex;
+	flex-direction: row;
+	justify-content: end;
+	align-items: center;
+}
+
+#header_right > a {
+	margin: 8px;
+	text-decoration: none;
+	color: blue;
+}
+
+.content {
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	min-height: 500px;
+	align-items: center;
+	justify-content: center;
+	background-color: #37517E;
+}
+
+
+.content > div {
+	width: 33%;
+}
+
+#content_left {
+	width: 50%;
+}
+
+#content_left > h1 {
+	font-size: 30px;
+	color: white;
+}
+
+#content_left > p {
+	color: #FFFFFF;
+}
+
+#content_left > a {
+	margin-left: 15px;
+	color: #FFFFFF;
+}
+
+#content_rigth {
+	width: 50%;
+}
+
+.menu {
+	text-decoration: none;
+}
+
+.menu__item {
+	color: white;
+}
+
+.menu__item--selected {
+	color: blue;
+}
+
+.content2 {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	min-height: 200px;
+	align-items: center;
+	justify-content: center;
+	background-color: #F5F5F5;
+}
+
+.content2 > h4 {
+	font-size: 20px
+}
+
+#sub > input{
+	padding: 8px;
+	width: 500px;
+	border-radius: 50px;
+	border: 1px solid white;
+}
+
+#sub > input:hover{
+    background-color: #99DBF5;
+    color: white;
+}
+
+.content3 {
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	min-height: 200px;
+	align-items: center;
+	justify-content: center;
+	background-color: #F3F5FA;
+
+}
+
+.content2 > h4 {
+	color: #213363 ;
+}
+
+.btn {
+	padding: 8px;
+	border-radius: 50px;
+	background-color: #75C2F6;
+	border: 1px solid #75C2F6;
+	color: white;
+	width: 100px;
+}
+
+.btn:hover {
+    background-color: #FFDEDE;
+    color: white;
+}
+
+#content3_leftA{
+	width: 25%;
+	margin-left: 20px;
+}
+
+#content3_leftB{
+	width: 25%;
+}
+
+#content3_RightB{
+	width: 25%;
+	
+}
+
+#content3_RightA{
+	width: 25%;
+}
+
+
+#content3_leftA > h3 {
+	color: #213363 ;
+}
+
+#content3_leftB > h4 {
+	color: #213363 ;
+}
+
+#content3_RightB > h4 {
+	color: #213363 ;
+}
+
+#content3_RightA > h4 {
+	color: #213363 ;
+}
+
+.btn1 {
+	padding: 8px;
+	border-radius: 100px;
+	background-color: #75C2F6;
+	border: 1px solid #75C2F6;
+	color: white;
+	width: 40px;
+	height: 40px;
+}
+
+
+footer{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+	background-color: #37517E;
+	color: white;
+}
+
+@media screen and (min-width:1200px){
+
+	.content{
+		width: auto;
+		float: none;
+		margin-left: auto;
+        margin-right: auto;
+	}
+}
