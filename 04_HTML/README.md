@@ -61,17 +61,13 @@ Membuat text dengan garis tercoret
 
 •	Jenis- jenis tag HTML
 -	Tag link html
-<a href=https://www.alterra.id” > 
-      website alterra
-</a>
+<a href=https://www.alterra.id” > website alterra</a>
 
 -	Tag image html
 <img src=”logo-alterra.png”/>
 
 -	Tag link dengan membuka tab baru
-<a href=https://www.alterra.id” target=”_blank” > 
-      website alterra
-</a>
+<a href=https://www.alterra.id” target=”_blank” > website alterra</a>
 
 -	Tag Table 
 o	Membuat table pada HTML menggunakan tag <table></table>
