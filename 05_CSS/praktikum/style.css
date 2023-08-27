@@ -1,6 +1,6 @@
 body{
 	margin: 0;
-	font-family: Arial;
+	font-family: Jost;
 }
 
 header{
@@ -9,7 +9,6 @@ header{
 	align-items: center;
 	justify-content: space-between;
 	background-color: white;
-	color: ;
 }
 
 .header_left, .header_right {
