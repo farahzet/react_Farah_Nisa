@@ -1,0 +1,16 @@
+#root{
+    max-width: auto;
+    margin: 0 auto;
+}
+
+.logo {
+    width: 60px;
+    height: 50px;
+    margin-left: 200px;
+}
+header{
+    display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-between;
+}

@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Landing Page</title>
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="fontawesome/css/all.css">
+    <link rel="stylesheet" type="text/css" href="code.css">
+</head>
+</head>
+<body>
+	<header>
+		<div class="navbar">
+			<div class="logo">
+				<h2><b>MyZet</b></h2>
+			</div>
+			<div id="menu">
+				<ul class="nav justify-content-center">
+					<li class="nav-item">
+						<a class="nav-link" aria-current="page" href="#">Home</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">About</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Contact Us</a>
+					</li>
+				</ul>
+            </div>
+        </div>
+    </header>
+    <main>
+    	<section class="WelcomePage">
+    		<div id="row">
+    			<div class="col-md-12 ">
+    				<h1 class="text-white">WELCOME TO MY WEBSITE!</h1>
+    				<p style="position: center">Thank You For Joining This Website. Enjoy the visit !</p>
+    				<a href="" class="btn">Explore Now &#8594;</a>
+    			</div>
+    		</div>
+    	</section>
+
+    	<section class="ContactUs">
+    		<div id="content_left">
+                <h4>Contact Us</h4>
+    			<p> Need to get in touch with us? Either fill out the form with your incurity or find the department email you'd like to contact below</p>
+                <img src="callcenter.jpg" style="height: 250px; width: 250px;">
+            </div>
+            <div id="content_right">
+                <div id="liveAlertPlaceholder">
+    			<form class="row g-3">
+    				<div class="col-md-6">
+    					<label for="inputnamefirts" class="form-label">Firts Name</label>
+    					<input type="text" class="form-control" placeholder="First name" id="firstname" aria-label="First name">
+    				</div>
+					<div class="col-md-6">
+						<label for="inputnamelast" class="form-label">Last Name</label>
+					    <input type="text" class="form-control" placeholder="Last name" id="lastname" aria-label="Last name">
+					</div>
+					<div class="col-12">
+						<label for="inputemail" class="form-label">Email</label>
+						<input type="email" class="form-control" id="email">
+					</div>
+					<div class="col-12">
+						<label for="comment">What can we help you need?</label>
+						<textarea class="form-control" placeholder="Leave a comment here" id="comment" style="height: 100px"></textarea>
+					</div>
+					<div class="col-12">
+						<button type="submit" class="btn btn-primary" id="submit">Submit</button>
+					</div>
+				</form>
+            </div>
+    		</div>
+    	</section>
+
+    	<footer>
+    		<div class="container">
+                <div class="row">
+                    <div class="footer-col-1">
+                        <h4><b>Our Social Media</b></h4>
+                        <p>Follow Us On</p>
+                        <div class="SocialMedia">
+                            <a href="https://www.facebook.com/farahzahirotun.nisa.7/"><i class="fa fa-facebook"></i></a>
+                            <a href="https://www.instagram.com/afzaaheer_/"><i class="fa fa-instagram"></i></a>
+                            <a href="https://twitter.com/farahnisa7"><i class="fa fa-twitter"></i></a>
+                        </div>
+                    </div>
+                    <div class="footer-col-2">
+                        <h4><b>MyZet</b></h4>
+                        <p>This is a zet's profile website. Enjoy the visit </p>
+                        <p>It's a very simple landing page</p>
+                    </div>
+                    <div class="footer-col-3">
+                        <h4><b>Personal</b></h4>
+                        <p>Bantul,Yogyakarta</p>
+                        <p><b>Phone : </b> +62 82264xxxxx</p>
+                        <p><b>Email : </b> zet@gmail.com</p>
+                    </div>
+                </div>
+                <hr>
+                <p class="copyright" style="text-align: center;">Copyright 2023 FarahZet</p>
+            </div>
+    	</footer>
+    </main>
+</body>
+<script>
+    const alertPlaceholder = document.getElementById('liveAlertPlaceholder')
+
+    const alert = (message, type) => {
+      const wrapper = document.createElement('div')
+      wrapper.innerHTML = [
+        `<div class="alert alert-${type} alert-dismissible" role="alert">`,
+        `   <div>${message}</div>`,
+        '   <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>',
+        '</div>'
+      ].join('')
+
+      alertPlaceholder.append(wrapper)
+    }
+
+    const alertTrigger = document.getElementById('submit')
+    if (alertTrigger) {
+      alertTrigger.addEventListener('click', () => {
+        var firstname = $('firstname').val();
+        var lastname = $('lastname').val();
+        alert('Hai' +firstname+ . +lastname+. 'Terima Kasih Telah Mengisi', 'success')
+      })
+    }
+</script>
+</html>
