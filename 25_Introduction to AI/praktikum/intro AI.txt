@@ -1,0 +1,4 @@
+Input : Who is nct
+
+Output : NCT is a South Korean boy band formed by SM Entertainment. The group debuted in 2016 and consist hf 23 members as of 2021. NCT stands for "Neo Culture Technology" and the group follows a unique rotational concept, where they can release music and perform in different sub-units based in different cities around the world, including NCT U, NCT 127, NCT Dream, Way, and NCT Hollywood. NCT has gained international popularity and success with their diverse musical styles and performances.
+
